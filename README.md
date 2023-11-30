@@ -1,4 +1,4 @@
-# EarningsCallSummarizer_LlaMA2
+# Summarization and Querying Earning Calls Transcripts PDF with LLaMA2 and Streamlit
 
 Earnings calls are crucial events in the financial world where publicly traded companies communicate their financial performance, strategies, and outlook to analysts, investors, and the public. These calls, often in the form of transcripts, contain a wealth of information that can significantly impact investment decisions and market trends. However, the sheer volume and complexity of these transcripts pose challenges for efficient analysis. Summarizing and querying earnings call transcripts address these challenges by distilling vast amounts of information into concise, meaningful insights.
 
@@ -12,15 +12,24 @@ The Earnings Call Summarizer project aims to streamline and enhance the analysis
 
 **Streamlit App:** The Streamlit app provides a user-friendly interface, simplifying the interaction with the summarized earning call information. With minimal code, it enables the development of a dynamic web application, offering a seamless experience for users to visualize, query, and derive actionable insights from financial documents.
 
+### Architecture
+
+**Architecture**
+![alt text](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/git-images/git-image-2.png)
+
+
 # Getting Started
 
 ## Prerequisites
 Follow these steps to set up and run the project on your local machine.
-Install required Python packages: pip install -r requirements.txt
 
-Usage
-Clone the repository: git clone https://github.com/jvadlamudi2/EarningsCallSummarizer_LlaMA2.git
-Navigate to the project directory: cd EarningsCallSummarizer_LlaMA2
-Run the Streamlit app: streamlit run app.py
+#### Usage
+1. Install required Python packages: pip install -r requirements.txt
+2. Clone the repository: git clone [https://github.com/jvadlamudi2/EarningsCallSummarizer_LlaMA2.git]
+3. Navigate to the project directory: cd EarningsCallSummarizer_LlaMA2
+4. Run the Streamlit app:
+    ```
+    streamlit run app.py
+    ```
 The app will be accessible at http://localhost:8501 in your web browser.
 
