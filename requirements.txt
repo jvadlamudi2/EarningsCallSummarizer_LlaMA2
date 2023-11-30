@@ -1,0 +1,6 @@
+langchain==0.0.343
+chromadb==0.4.18
+streamlit==1.28.2
+sentence-transformers==2.2.2
+llama_cpp_python==0.2.20
+unstructured==0.11.1
