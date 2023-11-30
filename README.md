@@ -24,7 +24,7 @@ The Earnings Call Summarizer project aims to streamline and enhance the analysis
 Follow these steps to set up and run the project on your local machine.
 
 #### Usage
-1. Install required Python packages: pip install -r requirements.txt
+1. Install required Python packages from requirements.txt
 2. Clone the repository: git clone [https://github.com/jvadlamudi2/EarningsCallSummarizer_LlaMA2.git]
 3. Navigate to the project directory: cd EarningsCallSummarizer_LlaMA2
 4. Run the Streamlit app:
